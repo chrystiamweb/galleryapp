@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row cards-wrapper">
+  <div class="col s12 m12">
+    <div class="">
+      <div class="card-content">
+        <span class="card-title"><%= @galery.title %></span>
+         <div id="gallery-wrapper">
+          <% @galery.images.each do |image| %>
+            <%= image_tag @galery.thumbnail(image), class:"", width:"320", height:"auto" %>
+          <%end%>
+        </div>
+      </div>      
+    </div>
+  </div>
+</div>
+
+</br>
+  <%= link_to 'Edit', edit_galery_path(@galery) %> 
+  <%= link_to 'Back', galeries_path %>
+
+  
+
+
+

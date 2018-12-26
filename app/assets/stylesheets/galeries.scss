@@ -1,0 +1,23 @@
+// Place all the styles related to the galeries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#gallery-wrapper {    
+    line-height: auto;       
+     -webkit-column-count: 4;    
+     -webkit-column-gap: 0px;    
+     -moz-column-count: 4;
+     -moz-column-gap: 0px;
+      column-count: 4;    
+      column-gap: 0px;    
+ }  
+ #gallery-wrapper img {    
+    padding: 5px; 
+ }  
+ #gallery-wrapper{    
+    display:inline-block;    
+    margin-right: auto;    
+    margin-left: auto;  
+ }
+
+
+ 
